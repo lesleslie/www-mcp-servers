@@ -1,2 +1,2 @@
 # www-mcp-servers
-Wedgwood Web Works maintained mcp servers
+Wedgwood Web Works MCP Servers
