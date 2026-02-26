@@ -21,13 +21,17 @@ These servers use a layered architecture that eliminates boilerplate and provide
 | Server | Description | GitHub |
 |--------|-------------|--------|
 | **excalidraw-mcp** | Real-time collaborative diagramming with WebSocket sync | [github.com/lesleslie/excalidraw-mcp](https://github.com/lesleslie/excalidraw-mcp) |
+| **graphics-mcp** | Image manipulation via Pillow/pilkit | [github.com/lesleslie/graphics-mcp](https://github.com/lesleslie/graphics-mcp) |
 | **mailgun-mcp** | Full Mailgun API coverage - email, domains, events, suppression lists | [github.com/lesleslie/mailgun-mcp](https://github.com/lesleslie/mailgun-mcp) |
+| **n8n-mcp** | n8n workflow automation integration | [github.com/lesleslie/n8n-mcp](https://github.com/lesleslie/n8n-mcp) |
+| **neo4j-mcp** | Neo4j graph database integration | [github.com/lesleslie/neo4j-mcp](https://github.com/lesleslie/neo4j-mcp) |
 | **opera-cloud-mcp** | Oracle Opera Cloud hospitality PMS integration | [github.com/lesleslie/opera-cloud-mcp](https://github.com/lesleslie/opera-cloud-mcp) |
-| **porkbun-dns-mcp** | Porkbun DNS record management | *(in development)* |
-| **porkbun-domain-mcp** | Porkbun domain management | *(in development)* |
+| **porkbun-dns-mcp** | Porkbun DNS record management | [github.com/lesleslie/porkbun-dns-mcp](https://github.com/lesleslie/porkbun-dns-mcp) |
+| **porkbun-domain-mcp** | Porkbun domain management | [github.com/lesleslie/porkbun-domain-mcp](https://github.com/lesleslie/porkbun-domain-mcp) |
 | **raindropio-mcp** | Bookmark management with batch operations and filtering | [github.com/lesleslie/raindropio-mcp](https://github.com/lesleslie/raindropio-mcp) |
-| **synxis-crs-mcp** | Synxis Central Reservation System integration | *(in development)* |
-| **synxis-pms-mcp** | Synxis Property Management System integration | *(in development)* |
+| **spline-mcp** | Spline.design 3D scene orchestration | [github.com/lesleslie/spline-mcp](https://github.com/lesleslie/spline-mcp) |
+| **synxis-crs-mcp** | SynXis Central Reservation System integration | [github.com/lesleslie/synxis-crs-mcp](https://github.com/lesleslie/synxis-crs-mcp) |
+| **synxis-pms-mcp** | SynXis Property Management System integration | [github.com/lesleslie/synxis-pms-mcp](https://github.com/lesleslie/synxis-pms-mcp) |
 | **unifi-mcp** | UniFi Network and Access controller management | [github.com/lesleslie/unifi-mcp](https://github.com/lesleslie/unifi-mcp) |
 
 ## Why WWW MCP Servers?
