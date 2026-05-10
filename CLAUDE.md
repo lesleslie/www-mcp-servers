@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is a **meta-project** - a documentation-only repository that lists Wedgwood Web Works MCP servers. There is no code to build, test, or lint here.
+This is a **meta-project** - a documentation-only repository that lists Wedgwood Web Works `*-mcp` servers. There is no code to build, test, or lint here.
 
 ## Related Repositories
 

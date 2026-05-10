@@ -4,7 +4,7 @@ This file provides guidance to Qwen Code when working with code in this reposito
 
 ## Repository Purpose
 
-This is a **meta-project** - a documentation-only repository that catalogs Wedgwood Web Works MCP servers. There is no code to build, test, or lint here. The repository serves as a central index and reference point for the MCP server ecosystem.
+This is a **meta-project** - a documentation-only repository that catalogs Wedgwood Web Works `*-mcp` servers. There is no code to build, test, or lint here. The repository serves as a central index and reference point for the MCP server ecosystem.
 
 ## Related Repositories
 
@@ -20,7 +20,9 @@ The actual MCP servers and their shared foundations live in separate repositorie
 
 | Server | Description | Status |
 |--------|-------------|--------|
+| **css-mcp** | CSS Analysis and Documentation MCP Server for FastBlocks ecosystem | Published |
 | **excalidraw-mcp** | Real-time collaborative diagramming with WebSocket sync | Published |
+| **langsmith-mcp** | MCP server for LangSmith observability - traces, prompts, datasets, and experiments | Published |
 | **mailgun-mcp** | Full Mailgun API coverage - email, domains, events, suppression lists | Published |
 | **opera-cloud-mcp** | Oracle Opera Cloud hospitality PMS integration | Published |
 | **porkbun-dns-mcp** | Porkbun DNS record management | In development |

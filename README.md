@@ -8,6 +8,8 @@
 
 A collection of MCP servers built on the **Oneiric + mcp-common + FastMCP** stack.
 
+This catalog covers the `*-mcp` repositories in the Wedgwood Web Works ecosystem. It does not attempt to list every sibling repo in the organization.
+
 ## Architecture
 
 These servers use a layered architecture that eliminates boilerplate and provides production-grade reliability:
@@ -20,8 +22,10 @@ These servers use a layered architecture that eliminates boilerplate and provide
 
 | Server | Description | GitHub |
 |--------|-------------|--------|
+| **css-mcp** | CSS analysis and documentation for the FastBlocks ecosystem | [github.com/lesleslie/css-mcp](https://github.com/lesleslie/css-mcp) |
 | **excalidraw-mcp** | Real-time collaborative diagramming with WebSocket sync | [github.com/lesleslie/excalidraw-mcp](https://github.com/lesleslie/excalidraw-mcp) |
 | **graphics-mcp** | Image manipulation via Pillow/pilkit | [github.com/lesleslie/graphics-mcp](https://github.com/lesleslie/graphics-mcp) |
+| **langsmith-mcp** | LangSmith observability for traces, prompts, datasets, and experiments | [github.com/lesleslie/langsmith-mcp](https://github.com/lesleslie/langsmith-mcp) |
 | **mailgun-mcp** | Full Mailgun API coverage - email, domains, events, suppression lists | [github.com/lesleslie/mailgun-mcp](https://github.com/lesleslie/mailgun-mcp) |
 | **n8n-mcp** | n8n workflow automation integration | [github.com/lesleslie/n8n-mcp](https://github.com/lesleslie/n8n-mcp) |
 | **neo4j-mcp** | Neo4j graph database integration | [github.com/lesleslie/neo4j-mcp](https://github.com/lesleslie/neo4j-mcp) |
