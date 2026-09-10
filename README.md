@@ -62,19 +62,20 @@ tests/
 | Server | Role | Default Port | Description |
 |--------|------|--------------|-------------|
 | [css-mcp](https://github.com/lesleslie/css-mcp) | CSS analysis | 3050 | CSS metrics, MDN docs, browser compatibility, and project analysis |
-| [excalidraw-mcp](https://github.com/lesleslie/excalidraw-mcp) | Diagramming | 3044 | Real-time collaborative Excalidraw scene and WebSocket workflows |
+| [excalidraw-mcp](https://github.com/lesleslie/excalidraw-mcp) | Diagramming | 3032 | Real-time collaborative Excalidraw scene and WebSocket workflows (canvas WebSocket on 3060) |
 | [graphics-mcp](https://github.com/lesleslie/graphics-mcp) | Image operations | 3040 | Raster image metadata, conversion, resizing, cropping, filters, and thumbnails |
-| [langsmith-mcp](https://github.com/lesleslie/langsmith-mcp) | Observability | varies | LangSmith traces, prompts, datasets, experiments, and usage lookup |
-| [mailgun-mcp](https://github.com/lesleslie/mailgun-mcp) | Email operations | varies | Mailgun email, domains, events, suppression lists, templates, and validation |
+| [langsmith-mcp](https://github.com/lesleslie/langsmith-mcp) | Observability | 3048 | LangSmith traces, prompts, datasets, experiments, and usage lookup |
+| [mailgun-mcp](https://github.com/lesleslie/mailgun-mcp) | Email operations | 3039 | Mailgun email, domains, events, suppression lists, templates, and validation |
 | [neo4j-mcp](https://github.com/lesleslie/neo4j-mcp) | Graph database | 3045 | Cypher, node, relationship, path, and schema operations |
-| [opera-cloud-mcp](https://github.com/lesleslie/opera-cloud-mcp) | Hospitality PMS | varies | Oracle OPERA Cloud reservations, guests, rooms, operations, and financial data |
+| [opera-cloud-mcp](https://github.com/lesleslie/opera-cloud-mcp) | Hospitality PMS | 3037 | Oracle OPERA Cloud reservations, guests, rooms, operations, and financial data |
+| [penpot-api-mcp](https://github.com/lesleslie/penpot-api-mcp) | Design automation | 3051 | Penpot REST API access — projects, files, and design object read/search/export without a browser |
 | [porkbun-dns-mcp](https://github.com/lesleslie/porkbun-dns-mcp) | DNS management | 3042 | Porkbun DNS record listing, creation, editing, and deletion |
 | [porkbun-domain-mcp](https://github.com/lesleslie/porkbun-domain-mcp) | Domain lifecycle | 3043 | Porkbun domain inventory, metadata, auth codes, renewal, and pricing |
-| [raindropio-mcp](https://github.com/lesleslie/raindropio-mcp) | Bookmarks | varies | Raindrop.io bookmark, collection, tag, batch, and filtering operations |
-| [spline-mcp](https://github.com/lesleslie/spline-mcp) | 3D scenes | varies | Spline.design scene orchestration and asset workflows |
+| [raindropio-mcp](https://github.com/lesleslie/raindropio-mcp) | Bookmarks | 3034 | Raindrop.io bookmark, collection, tag, batch, and filtering operations |
+| [spline-mcp](https://github.com/lesleslie/spline-mcp) | 3D scenes | 3052 | Spline.design scene orchestration and asset workflows |
 | [synxis-crs-mcp](https://github.com/lesleslie/synxis-crs-mcp) | Reservations | 3046 | SynXis CRS property search, availability, rates, and booking |
 | [synxis-pms-mcp](https://github.com/lesleslie/synxis-pms-mcp) | Property operations | 3047 | SynXis PMS guest, room, check-in, check-out, and folio workflows |
-| [unifi-mcp](https://github.com/lesleslie/unifi-mcp) | Network operations | varies | UniFi Network and Access controller management |
+| [unifi-mcp](https://github.com/lesleslie/unifi-mcp) | Network operations | 3038 | UniFi Network and Access controller management |
 
 ## Operating Model
 
@@ -89,6 +90,8 @@ Expected common behavior:
 - environment variables override committed defaults
 - provider credentials stay in environment variables, local `.env` files, or a secret manager
 - `/health` and `/healthz` are available on HTTP-enabled servers that follow the current template
+
+Each plugin is also distributed through the [bodai-plugins Claude Code marketplace](https://github.com/lesleslie/bodai-plugins): register once with `claude plugin marketplace add https://github.com/lesleslie/bodai-plugins`, then `claude plugin install <server>` per server to install as a Claude Code plugin alongside the `mcp__<server>__*` tools.
 
 ## Common Commands
 
