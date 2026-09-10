@@ -61,17 +61,20 @@ tests/
 
 | Server | Role | Default Port | Description |
 |--------|------|--------------|-------------|
+| [archive-org-mcp](https://github.com/lesleslie/archive-org-mcp) | Web archives | 3054 | Wayback Machine snapshots, Internet Archive catalog search, and saved-page retrieval |
 | [css-mcp](https://github.com/lesleslie/css-mcp) | CSS analysis | 3050 | CSS metrics, MDN docs, browser compatibility, and project analysis |
 | [excalidraw-mcp](https://github.com/lesleslie/excalidraw-mcp) | Diagramming | 3032 | Real-time collaborative Excalidraw scene and WebSocket workflows (canvas WebSocket on 3060) |
 | [graphics-mcp](https://github.com/lesleslie/graphics-mcp) | Image operations | 3040 | Raster image metadata, conversion, resizing, cropping, filters, and thumbnails |
 | [langsmith-mcp](https://github.com/lesleslie/langsmith-mcp) | Observability | 3048 | LangSmith traces, prompts, datasets, experiments, and usage lookup |
 | [mailgun-mcp](https://github.com/lesleslie/mailgun-mcp) | Email operations | 3039 | Mailgun email, domains, events, suppression lists, templates, and validation |
+| [medium-mcp](https://github.com/lesleslie/medium-mcp) | Content publishing | 3055 | Medium article, author, and publication lookup via RapidAPI medium2 |
 | [neo4j-mcp](https://github.com/lesleslie/neo4j-mcp) | Graph database | 3045 | Cypher, node, relationship, path, and schema operations |
 | [opera-cloud-mcp](https://github.com/lesleslie/opera-cloud-mcp) | Hospitality PMS | 3037 | Oracle OPERA Cloud reservations, guests, rooms, operations, and financial data |
 | [penpot-api-mcp](https://github.com/lesleslie/penpot-api-mcp) | Design automation | 3051 | Penpot REST API access — projects, files, and design object read/search/export without a browser |
 | [porkbun-dns-mcp](https://github.com/lesleslie/porkbun-dns-mcp) | DNS management | 3042 | Porkbun DNS record listing, creation, editing, and deletion |
 | [porkbun-domain-mcp](https://github.com/lesleslie/porkbun-domain-mcp) | Domain lifecycle | 3043 | Porkbun domain inventory, metadata, auth codes, renewal, and pricing |
 | [raindropio-mcp](https://github.com/lesleslie/raindropio-mcp) | Bookmarks | 3034 | Raindrop.io bookmark, collection, tag, batch, and filtering operations |
+| [scapy-mcp](https://github.com/lesleslie/scapy-mcp) | Packet analysis | 3056 | Scapy packet crafting, dissection, and live capture |
 | [spline-mcp](https://github.com/lesleslie/spline-mcp) | 3D scenes | 3052 | Spline.design scene orchestration and asset workflows |
 | [synxis-crs-mcp](https://github.com/lesleslie/synxis-crs-mcp) | Reservations | 3046 | SynXis CRS property search, availability, rates, and booking |
 | [synxis-pms-mcp](https://github.com/lesleslie/synxis-pms-mcp) | Property operations | 3047 | SynXis PMS guest, room, check-in, check-out, and folio workflows |

@@ -4,9 +4,9 @@ Authoritative port assignments for the `*-mcp` server fleet. The catalog `README
 
 ## Port allocation policy
 
-- Default ports span **3032–3052** with intentional gaps.
-- New servers pick the next free slot above the current maximum (currently **3052**, so the next server should use **3053** or higher).
-- Gaps in the range (3033, 3035, 3036, 3041, 3049) are reserved for retired servers — please don't reuse them.
+- Default ports span **3032–3056** with intentional gaps.
+- New servers pick the next free slot above the current maximum (currently **3056**, so the next server should use **3057** or higher).
+- Gaps in the range (3033, 3035, 3036, 3041, 3049, 3053) are reserved for retired servers — please don't reuse them.
 
 ## Servers
 
@@ -29,6 +29,9 @@ Sorted by port. HTTP transport on the listed port unless noted.
 | [css-mcp](https://github.com/lesleslie/css-mcp) | 3050 | `css-mcp/settings/css-mcp.yaml` (`http_port`) | CSS analysis |
 | [penpot-api-mcp](https://github.com/lesleslie/penpot-api-mcp) | 3051 | `penpot-api-mcp/pyproject.toml` + `settings/penpot_api_mcp.yaml` | Design automation |
 | [spline-mcp](https://github.com/lesleslie/spline-mcp) | 3052 | `spline-mcp/settings/spline.yaml` (`http_port`) | 3D scenes |
+| [archive-org-mcp](https://github.com/lesleslie/archive-org-mcp) | 3054 | `archive-org-mcp/settings/archive-org-mcp.yaml` (`http_port`) | Web archives |
+| [medium-mcp](https://github.com/lesleslie/medium-mcp) | 3055 | `medium-mcp/medium_mcp/config/settings.py` (`http_port`) | Content publishing |
+| [scapy-mcp](https://github.com/lesleslie/scapy-mcp) | 3056 | `scapy-mcp/scapy_mcp/config/settings.py` (`http_port`) | Packet analysis |
 
 ## Secondary ports
 
@@ -41,6 +44,7 @@ Some servers expose additional listeners beyond the MCP HTTP transport. Document
 
 ## Change log
 
+- **2026-09-09** — `archive-org-mcp` added (3054), `medium-mcp` added (3055), `scapy-mcp` added (3056). Port 3053 deliberately skipped (no retired server; reserved per the gaps-in-range policy).
 - **2026-08-31** — `excalidraw-mcp` WebSocket canvas server renumbered 3042 → 3060 (collision with `porkbun-dns-mcp`).
 - **2026-08-31** — `excalidraw-mcp` config key renamed `mcp_http_port` → `http_port` (and `mcp_http_host` → `http_host`) for ecosystem consistency.
 - **2026-08-31** — `spline-mcp` renumbered 3048 → 3052 (collision with `langsmith-mcp`).
