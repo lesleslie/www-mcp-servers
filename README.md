@@ -96,7 +96,7 @@ Expected common behavior:
 - provider credentials stay in environment variables, local `.env` files, or a secret manager
 - `/health` and `/healthz` are available on HTTP-enabled servers that follow the current template
 
-Each plugin is also distributed through the [bodai-plugins Claude Code marketplace](https://github.com/lesleslie/bodai-plugins): register once with `claude plugin marketplace add https://github.com/lesleslie/bodai-plugins`, then `claude plugin install <server>` per server to install as a Claude Code plugin alongside the `mcp__<server>__*` tools.
+Each plugin is distributed through this repo's [Claude Code marketplace](https://github.com/lesleslie/www-mcp-servers): register once with `claude plugin marketplace add https://github.com/lesleslie/www-mcp-servers`, then `claude plugin install <server>` per server to install as a Claude Code plugin alongside the `mcp__<server>__*` tools.
 
 ## Common Commands
 
