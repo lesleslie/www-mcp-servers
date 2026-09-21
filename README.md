@@ -62,6 +62,8 @@ tests/
 | Server | Role | Default Port | Description |
 |--------|------|--------------|-------------|
 | [archive-org-mcp](https://github.com/lesleslie/archive-org-mcp) | Web archives | 3054 | Wayback Machine snapshots, Internet Archive catalog search, and saved-page retrieval |
+| [chat-bridge-mcp](https://github.com/lesleslie/chat-bridge-mcp) | Cross-app bridge | 3057 | Bidirectional bridge between Claude Desktop and ChatGPT Desktop on the same machine via Chrome DevTools Protocol (forward, ask, and peer discovery tools) |
+| [cmux-mcp](https://github.com/lesleslie/cmux-mcp) | Terminal automation | 3061 | Programmatic control of a running cmux instance (macOS Ghostty terminal for AI agents) — orchestration and notifications over Unix-socket JSON-RPC plus browser automation via the cmux CLI |
 | [css-mcp](https://github.com/lesleslie/css-mcp) | CSS analysis | 3050 | CSS metrics, MDN docs, browser compatibility, and project analysis |
 | [excalidraw-mcp](https://github.com/lesleslie/excalidraw-mcp) | Diagramming | 3032 | Real-time collaborative Excalidraw scene and WebSocket workflows (canvas WebSocket on 3060) |
 | [graphics-mcp](https://github.com/lesleslie/graphics-mcp) | Image operations | 3040 | Raster image metadata, conversion, resizing, cropping, filters, and thumbnails |

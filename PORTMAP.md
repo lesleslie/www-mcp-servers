@@ -4,8 +4,8 @@ Authoritative port assignments for the `*-mcp` server fleet. The catalog `README
 
 ## Port allocation policy
 
-- Default ports span **3032–3056** with intentional gaps.
-- New servers pick the next free slot above the current maximum (currently **3056**, so the next server should use **3057** or higher).
+- Default ports span **3032–3061** with intentional gaps.
+- New servers pick the next free slot above the current maximum (currently **3061**, so the next server should use **3062** or higher).
 - Gaps in the range (3033, 3035, 3036, 3041, 3049, 3053) are reserved for retired servers — please don't reuse them.
 
 ## Servers
@@ -32,6 +32,8 @@ Sorted by port. HTTP transport on the listed port unless noted.
 | [archive-org-mcp](https://github.com/lesleslie/archive-org-mcp) | 3054 | `archive-org-mcp/settings/archive-org-mcp.yaml` (`http_port`) | Web archives |
 | [medium-mcp](https://github.com/lesleslie/medium-mcp) | 3055 | `medium-mcp/medium_mcp/config/settings.py` (`http_port`) | Content publishing |
 | [scapy-mcp](https://github.com/lesleslie/scapy-mcp) | 3056 | `scapy-mcp/scapy_mcp/config/settings.py` (`http_port`) | Packet analysis |
+| [chat-bridge-mcp](https://github.com/lesleslie/chat-bridge-mcp) | 3057 | `chat-bridge-mcp/chat_bridge_mcp/config.py` (`DEFAULT_PORT` module constant) | Cross-app bridge |
+| [cmux-mcp](https://github.com/lesleslie/cmux-mcp) | 3061 | `cmux-mcp/settings/cmux-mcp.yaml` (`port`) + `cmux_mcp/__init__.py` (`DEFAULT_PORT`) | Terminal automation |
 
 ## Secondary ports
 
@@ -44,6 +46,8 @@ Some servers expose additional listeners beyond the MCP HTTP transport. Document
 
 ## Change log
 
+- **2026-09-21** — `chat-bridge-mcp` added (3057). Source of truth is the `DEFAULT_PORT` module constant in `chat_bridge_mcp/config.py` rather than the usual `settings/*.yaml` — noted for the audit script.
+- **2026-09-21** — `cmux-mcp` added (3061). Skipped the 3058–3060 gap to keep `chat-bridge-mcp` adjacent to its predecessor range; cmux-mcp is the first server outside the historical 3032–3057 band.
 - **2026-09-09** — `archive-org-mcp` added (3054), `medium-mcp` added (3055), `scapy-mcp` added (3056). Port 3053 deliberately skipped (no retired server; reserved per the gaps-in-range policy).
 - **2026-08-31** — `excalidraw-mcp` WebSocket canvas server renumbered 3042 → 3060 (collision with `porkbun-dns-mcp`).
 - **2026-08-31** — `excalidraw-mcp` config key renamed `mcp_http_port` → `http_port` (and `mcp_http_host` → `http_host`) for ecosystem consistency.
