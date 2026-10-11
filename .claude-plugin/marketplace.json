@@ -11,7 +11,7 @@
         "source": "github",
         "repo": "lesleslie/archive-org-mcp"
       },
-      "ref": "main"
+      "ref": "v0.1.2"
     },
     {
       "name": "chat-bridge",
@@ -19,7 +19,7 @@
         "source": "github",
         "repo": "lesleslie/chat-bridge-mcp"
       },
-      "ref": "main"
+      "ref": "v0.2.1"
     },
     {
       "name": "cmux",
@@ -27,7 +27,7 @@
         "source": "github",
         "repo": "lesleslie/cmux-mcp"
       },
-      "ref": "main"
+      "ref": "v0.2.2"
     },
     {
       "name": "css",
@@ -35,7 +35,7 @@
         "source": "github",
         "repo": "lesleslie/css-mcp"
       },
-      "ref": "main"
+      "ref": "v0.5.4"
     },
     {
       "name": "excalidraw",
@@ -43,7 +43,7 @@
         "source": "github",
         "repo": "lesleslie/excalidraw-mcp"
       },
-      "ref": "main"
+      "ref": "v0.39.4"
     },
     {
       "name": "graphics",
@@ -51,7 +51,7 @@
         "source": "github",
         "repo": "lesleslie/graphics-mcp"
       },
-      "ref": "main"
+      "ref": "v0.5.4"
     },
     {
       "name": "langsmith",
@@ -59,7 +59,7 @@
         "source": "github",
         "repo": "lesleslie/langsmith-mcp"
       },
-      "ref": "main"
+      "ref": "v0.5.3"
     },
     {
       "name": "mailgun",
@@ -67,7 +67,7 @@
         "source": "github",
         "repo": "lesleslie/mailgun-mcp"
       },
-      "ref": "main"
+      "ref": "v0.5.4"
     },
     {
       "name": "medium",
@@ -75,7 +75,7 @@
         "source": "github",
         "repo": "lesleslie/medium-mcp"
       },
-      "ref": "main"
+      "ref": "v0.1.4"
     },
     {
       "name": "neo4j",
@@ -83,7 +83,7 @@
         "source": "github",
         "repo": "lesleslie/neo4j-mcp"
       },
-      "ref": "main"
+      "ref": "v0.4.2"
     },
     {
       "name": "opera-cloud",
@@ -91,7 +91,7 @@
         "source": "github",
         "repo": "lesleslie/opera-cloud-mcp"
       },
-      "ref": "main"
+      "ref": "v0.6.5"
     },
     {
       "name": "penpot-api",
@@ -99,7 +99,7 @@
         "source": "github",
         "repo": "lesleslie/penpot-api-mcp"
       },
-      "ref": "main"
+      "ref": "v0.4.3"
     },
     {
       "name": "porkbun-dns",
@@ -107,7 +107,7 @@
         "source": "github",
         "repo": "lesleslie/porkbun-dns-mcp"
       },
-      "ref": "main"
+      "ref": "v0.4.4"
     },
     {
       "name": "porkbun-domain",
@@ -115,7 +115,7 @@
         "source": "github",
         "repo": "lesleslie/porkbun-domain-mcp"
       },
-      "ref": "main"
+      "ref": "v0.4.3"
     },
     {
       "name": "raindropio",
@@ -123,7 +123,7 @@
         "source": "github",
         "repo": "lesleslie/raindropio-mcp"
       },
-      "ref": "main"
+      "ref": "v0.5.3"
     },
     {
       "name": "scapy",
@@ -131,7 +131,7 @@
         "source": "github",
         "repo": "lesleslie/scapy-mcp"
       },
-      "ref": "main"
+      "ref": "v0.1.2"
     },
     {
       "name": "spline",
@@ -139,7 +139,7 @@
         "source": "github",
         "repo": "lesleslie/spline-mcp"
       },
-      "ref": "main"
+      "ref": "v0.5.4"
     },
     {
       "name": "synxis-crs",
@@ -147,7 +147,7 @@
         "source": "github",
         "repo": "lesleslie/synxis-crs-mcp"
       },
-      "ref": "main"
+      "ref": "v0.4.3"
     },
     {
       "name": "synxis-pms",
@@ -155,7 +155,7 @@
         "source": "github",
         "repo": "lesleslie/synxis-pms-mcp"
       },
-      "ref": "main"
+      "ref": "v0.5.3"
     },
     {
       "name": "unifi",
@@ -163,7 +163,7 @@
         "source": "github",
         "repo": "lesleslie/unifi-mcp"
       },
-      "ref": "main"
+      "ref": "v0.5.3"
     }
   ]
 }
