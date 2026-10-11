@@ -7,102 +7,162 @@
   "plugins": [
     {
       "name": "archive-org",
-      "source": "../archive-org-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/archive-org-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "chat-bridge",
-      "source": "../chat-bridge-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/chat-bridge-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "cmux",
-      "source": "../cmux-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/cmux-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "css",
-      "source": "../css-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/css-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "excalidraw",
-      "source": "../excalidraw-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/excalidraw-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "graphics",
-      "source": "../graphics-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/graphics-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "langsmith",
-      "source": "../langsmith-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/langsmith-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "mailgun",
-      "source": "../mailgun-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/mailgun-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "medium",
-      "source": "../medium-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/medium-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "neo4j",
-      "source": "../neo4j-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/neo4j-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "opera-cloud",
-      "source": "../opera-cloud-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/opera-cloud-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "penpot-api",
-      "source": "../penpot-api-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/penpot-api-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "porkbun-dns",
-      "source": "../porkbun-dns-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/porkbun-dns-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "porkbun-domain",
-      "source": "../porkbun-domain-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/porkbun-domain-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "raindropio",
-      "source": "../raindropio-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/raindropio-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "scapy",
-      "source": "../scapy-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/scapy-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "spline",
-      "source": "../spline-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/spline-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "synxis-crs",
-      "source": "../synxis-crs-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/synxis-crs-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "synxis-pms",
-      "source": "../synxis-pms-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/synxis-pms-mcp"
+      },
       "ref": "main"
     },
     {
       "name": "unifi",
-      "source": "../unifi-mcp",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/unifi-mcp"
+      },
       "ref": "main"
     }
   ]
